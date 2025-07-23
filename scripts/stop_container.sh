@@ -2,4 +2,5 @@
 set -e
 
 # Stop the running container (if any)
- docker ps --format '{{.ID}}'
+ ContainerID="docker ps --format '{{.ID}}'"
+ docker rm -f $ContainerID
