@@ -2,5 +2,5 @@
 set -e
 
 # Stop the running container (if any)
-ContainerID=$(docker ps --format '{{.ID}}')
+echo "hi"
 
